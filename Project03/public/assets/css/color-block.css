@@ -1,0 +1,2044 @@
+/** Color **/
+.color-block {
+    border-radius: 2px;
+    margin: 4px 0;
+}
+
+.color-block.bg-blue-100 {
+    color: #212529;
+}
+
+.color-block.text-blue-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-blue-200 {
+    color: #212529;
+}
+
+.color-block.text-blue-200 {
+    background-color: #212529;
+}
+
+.color-block.bg-blue-300 {
+    color: #ffffff;
+}
+
+.color-block.text-blue-300 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-blue-400 {
+    color: #ffffff;
+}
+
+.color-block.text-blue-400 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-blue-500 {
+    color: #ffffff;
+}
+
+.color-block.text-blue-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-blue-600 {
+    color: #ffffff;
+}
+
+.color-block.text-blue-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-blue-700 {
+    color: #ffffff;
+}
+
+.color-block.text-blue-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-blue-800 {
+    color: #ffffff;
+}
+
+.color-block.text-blue-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-blue-900 {
+    color: #ffffff;
+}
+
+.color-block.text-blue-900 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-indigo-100 {
+    color: #212529;
+}
+
+.color-block.text-indigo-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-indigo-200 {
+    color: #ffffff;
+}
+
+.color-block.text-indigo-200 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-indigo-300 {
+    color: #ffffff;
+}
+
+.color-block.text-indigo-300 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-indigo-400 {
+    color: #ffffff;
+}
+
+.color-block.text-indigo-400 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-indigo-500 {
+    color: #ffffff;
+}
+
+.color-block.text-indigo-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-indigo-600 {
+    color: #ffffff;
+}
+
+.color-block.text-indigo-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-indigo-700 {
+    color: #ffffff;
+}
+
+.color-block.text-indigo-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-indigo-800 {
+    color: #ffffff;
+}
+
+.color-block.text-indigo-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-indigo-900 {
+    color: #ffffff;
+}
+
+.color-block.text-indigo-900 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-purple-100 {
+    color: #212529;
+}
+
+.color-block.text-purple-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-purple-200 {
+    color: #ffffff;
+}
+
+.color-block.text-purple-200 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-purple-300 {
+    color: #ffffff;
+}
+
+.color-block.text-purple-300 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-purple-400 {
+    color: #ffffff;
+}
+
+.color-block.text-purple-400 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-purple-500 {
+    color: #ffffff;
+}
+
+.color-block.text-purple-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-purple-600 {
+    color: #ffffff;
+}
+
+.color-block.text-purple-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-purple-700 {
+    color: #ffffff;
+}
+
+.color-block.text-purple-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-purple-800 {
+    color: #ffffff;
+}
+
+.color-block.text-purple-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-purple-900 {
+    color: #ffffff;
+}
+
+.color-block.text-purple-900 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-pink-100 {
+    color: #212529;
+}
+
+.color-block.text-pink-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-pink-200 {
+    color: #ffffff;
+}
+
+.color-block.text-pink-200 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-pink-300 {
+    color: #ffffff;
+}
+
+.color-block.text-pink-300 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-pink-400 {
+    color: #ffffff;
+}
+
+.color-block.text-pink-400 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-pink-500 {
+    color: #ffffff;
+}
+
+.color-block.text-pink-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-pink-600 {
+    color: #ffffff;
+}
+
+.color-block.text-pink-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-pink-700 {
+    color: #ffffff;
+}
+
+.color-block.text-pink-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-pink-800 {
+    color: #ffffff;
+}
+
+.color-block.text-pink-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-pink-900 {
+    color: #ffffff;
+}
+
+.color-block.text-pink-900 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-red-100 {
+    color: #212529;
+}
+
+.color-block.text-red-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-red-200 {
+    color: #ffffff;
+}
+
+.color-block.text-red-200 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-red-300 {
+    color: #ffffff;
+}
+
+.color-block.text-red-300 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-red-400 {
+    color: #ffffff;
+}
+
+.color-block.text-red-400 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-red-500 {
+    color: #ffffff;
+}
+
+.color-block.text-red-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-red-600 {
+    color: #ffffff;
+}
+
+.color-block.text-red-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-red-700 {
+    color: #ffffff;
+}
+
+.color-block.text-red-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-red-800 {
+    color: #ffffff;
+}
+
+.color-block.text-red-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-red-900 {
+    color: #ffffff;
+}
+
+.color-block.text-red-900 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-orange-100 {
+    color: #212529;
+}
+
+.color-block.text-orange-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-orange-200 {
+    color: #212529;
+}
+
+.color-block.text-orange-200 {
+    background-color: #212529;
+}
+
+.color-block.bg-orange-300 {
+    color: #ffffff;
+}
+
+.color-block.text-orange-300 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-orange-400 {
+    color: #ffffff;
+}
+
+.color-block.text-orange-400 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-orange-500 {
+    color: #ffffff;
+}
+
+.color-block.text-orange-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-orange-600 {
+    color: #ffffff;
+}
+
+.color-block.text-orange-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-orange-700 {
+    color: #ffffff;
+}
+
+.color-block.text-orange-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-orange-800 {
+    color: #ffffff;
+}
+
+.color-block.text-orange-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-orange-900 {
+    color: #ffffff;
+}
+
+.color-block.text-orange-900 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-yellow-100 {
+    color: #212529;
+}
+
+.color-block.text-yellow-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-yellow-200 {
+    color: #212529;
+}
+
+.color-block.text-yellow-200 {
+    background-color: #212529;
+}
+
+.color-block.bg-yellow-300 {
+    color: #212529;
+}
+
+.color-block.text-yellow-300 {
+    background-color: #212529;
+}
+
+.color-block.bg-yellow-400 {
+    color: #212529;
+}
+
+.color-block.text-yellow-400 {
+    background-color: #212529;
+}
+
+.color-block.bg-yellow-500 {
+    color: #ffffff;
+}
+
+.color-block.text-yellow-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-yellow-600 {
+    color: #ffffff;
+}
+
+.color-block.text-yellow-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-yellow-700 {
+    color: #ffffff;
+}
+
+.color-block.text-yellow-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-yellow-800 {
+    color: #ffffff;
+}
+
+.color-block.text-yellow-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-yellow-900 {
+    color: #ffffff;
+}
+
+.color-block.text-yellow-900 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-green-100 {
+    color: #212529;
+}
+
+.color-block.text-green-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-green-200 {
+    color: #212529;
+}
+
+.color-block.text-green-200 {
+    background-color: #212529;
+}
+
+.color-block.bg-green-300 {
+    color: #ffffff;
+}
+
+.color-block.text-green-300 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-green-400 {
+    color: #ffffff;
+}
+
+.color-block.text-green-400 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-green-500 {
+    color: #ffffff;
+}
+
+.color-block.text-green-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-green-600 {
+    color: #ffffff;
+}
+
+.color-block.text-green-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-green-700 {
+    color: #ffffff;
+}
+
+.color-block.text-green-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-green-800 {
+    color: #ffffff;
+}
+
+.color-block.text-green-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-green-900 {
+    color: #ffffff;
+}
+
+.color-block.text-green-900 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-teal-100 {
+    color: #212529;
+}
+
+.color-block.text-teal-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-teal-200 {
+    color: #ffffff;
+}
+
+.color-block.text-teal-200 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-teal-300 {
+    color: #ffffff;
+}
+
+.color-block.text-teal-300 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-teal-400 {
+    color: #ffffff;
+}
+
+.color-block.text-teal-400 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-teal-500 {
+    color: #ffffff;
+}
+
+.color-block.text-teal-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-teal-600 {
+    color: #ffffff;
+}
+
+.color-block.text-teal-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-teal-700 {
+    color: #ffffff;
+}
+
+.color-block.text-teal-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-teal-800 {
+    color: #ffffff;
+}
+
+.color-block.text-teal-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-teal-900 {
+    color: #ffffff;
+}
+
+.color-block.text-teal-900 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-cyan-100 {
+    color: #212529;
+}
+
+.color-block.text-cyan-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-cyan-200 {
+    color: #212529;
+}
+
+.color-block.text-cyan-200 {
+    background-color: #212529;
+}
+
+.color-block.bg-cyan-300 {
+    color: #ffffff;
+}
+
+.color-block.text-cyan-300 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-cyan-400 {
+    color: #ffffff;
+}
+
+.color-block.text-cyan-400 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-cyan-500 {
+    color: #ffffff;
+}
+
+.color-block.text-cyan-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-cyan-600 {
+    color: #ffffff;
+}
+
+.color-block.text-cyan-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-cyan-700 {
+    color: #ffffff;
+}
+
+.color-block.text-cyan-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-cyan-800 {
+    color: #ffffff;
+}
+
+.color-block.text-cyan-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-cyan-900 {
+    color: #ffffff;
+}
+
+.color-block.text-cyan-900 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-gray-100 {
+    color: #212529;
+}
+
+.color-block.text-gray-100 {
+    background-color: #212529;
+}
+
+.color-block.bg-gray-200 {
+    color: #212529;
+}
+
+.color-block.text-gray-200 {
+    background-color: #212529;
+}
+
+.color-block.bg-gray-300 {
+    color: #212529;
+}
+
+.color-block.text-gray-300 {
+    background-color: #212529;
+}
+
+.color-block.bg-gray-400 {
+    color: #ffffff;
+}
+
+.color-block.text-gray-400 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-gray-500 {
+    color: #ffffff;
+}
+
+.color-block.text-gray-500 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-gray-600 {
+    color: #ffffff;
+}
+
+.color-block.text-gray-600 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-gray-700 {
+    color: #ffffff;
+}
+
+.color-block.text-gray-700 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-gray-800 {
+    color: #ffffff;
+}
+
+.color-block.text-gray-800 {
+    background-color: #ffffff;
+}
+
+.color-block.bg-gray-900 {
+    color: #ffffff;
+}
+
+.color-block.text-gray-900 {
+    background-color: #ffffff;
+}
+
+/** End Color **/
+
+/*====== more bootstrap colors start ======*/
+.bg-blue-100 {
+    background: #d1f2eb;
+}
+
+.text-blue-100 {
+    color: #d1f2eb;
+}
+
+.bg-blue-200 {
+    background: #a3e4d7;
+}
+
+.text-blue-200 {
+    color: #a3e4d7;
+}
+
+.bg-blue-300 {
+    background: #76d7c4;
+}
+
+.text-blue-300 {
+    color: #76d7c4;
+}
+
+.bg-blue-400 {
+    background: #48c9b0;
+}
+
+.text-blue-400 {
+    color: #48c9b0;
+}
+
+.bg-blue-500 {
+    background: #1abc9c;
+}
+
+.text-blue-500 {
+    color: #1abc9c;
+}
+
+.bg-blue-600 {
+    background: #15967d;
+}
+
+.text-blue-600 {
+    color: #15967d;
+}
+
+.bg-blue-700 {
+    background: #10715e;
+}
+
+.text-blue-700 {
+    color: #10715e;
+}
+
+.bg-blue-800 {
+    background: #0a4b3e;
+}
+
+.text-blue-800 {
+    color: #0a4b3e;
+}
+
+.bg-blue-900 {
+    background: #05261f;
+}
+
+.text-blue-900 {
+    color: #05261f;
+}
+
+.bg-indigo-100 {
+    background: #e0cffc;
+}
+
+.text-indigo-100 {
+    color: #e0cffc;
+}
+
+.bg-indigo-200 {
+    background: #c29ffa;
+}
+
+.text-indigo-200 {
+    color: #c29ffa;
+}
+
+.bg-indigo-300 {
+    background: #a370f7;
+}
+
+.text-indigo-300 {
+    color: #a370f7;
+}
+
+.bg-indigo-400 {
+    background: #8540f5;
+}
+
+.text-indigo-400 {
+    color: #8540f5;
+}
+
+.bg-indigo-500 {
+    background: #6610f2;
+}
+
+.text-indigo-500 {
+    color: #6610f2;
+}
+
+.bg-indigo-600 {
+    background: #520dc2;
+}
+
+.text-indigo-600 {
+    color: #520dc2;
+}
+
+.bg-indigo-700 {
+    background: #3d0a91;
+}
+
+.text-indigo-700 {
+    color: #3d0a91;
+}
+
+.bg-indigo-800 {
+    background: #290661;
+}
+
+.text-indigo-800 {
+    color: #290661;
+}
+
+.bg-indigo-900 {
+    background: #140330;
+}
+
+.text-indigo-900 {
+    color: #140330;
+}
+
+.bg-purple-100 {
+    background: #ebdef0;
+}
+
+.text-purple-100 {
+    color: #ebdef0;
+}
+
+.bg-purple-200 {
+    background: #d7bde2;
+}
+
+.text-purple-200 {
+    color: #d7bde2;
+}
+
+.bg-purple-300 {
+    background: #c39bd3;
+}
+
+.text-purple-300 {
+    color: #c39bd3;
+}
+
+.bg-purple-400 {
+    background: #af7ac5;
+}
+
+.text-purple-400 {
+    color: #af7ac5;
+}
+
+.bg-purple-500 {
+    background: #9B59B6;
+}
+
+.text-purple-500 {
+    color: #9B59B6;
+}
+
+.bg-purple-600 {
+    background: #7c4792;
+}
+
+.text-purple-600 {
+    color: #7c4792;
+}
+
+.bg-purple-700 {
+    background: #5d356d;
+}
+
+.text-purple-700 {
+    color: #5d356d;
+}
+
+.bg-purple-800 {
+    background: #3e2449;
+}
+
+.text-purple-800 {
+    color: #3e2449;
+}
+
+.bg-purple-900 {
+    background: #1f1224;
+}
+
+.text-purple-900 {
+    color: #1f1224;
+}
+
+.bg-pink-100 {
+    background: #fad8e8;
+}
+
+.text-pink-100 {
+    color: #fad8e8;
+}
+
+.bg-pink-200 {
+    background: #f6b2d1;
+}
+
+.text-pink-200 {
+    color: #f6b2d1;
+}
+
+.bg-pink-300 {
+    background: #f18bba;
+}
+
+.text-pink-300 {
+    color: #f18bba;
+}
+
+.bg-pink-400 {
+    background: #ed65a3;
+}
+
+.text-pink-400 {
+    color: #ed65a3;
+}
+
+.bg-pink-500 {
+    background: #e83e8c;
+}
+
+.text-pink-500 {
+    color: #e83e8c;
+}
+
+.bg-pink-600 {
+    background: #ba3270;
+}
+
+.text-pink-600 {
+    color: #ba3270;
+}
+
+.bg-pink-700 {
+    background: #8b2554;
+}
+
+.text-pink-700 {
+    color: #8b2554;
+}
+
+.bg-pink-800 {
+    background: #5d1938;
+}
+
+.text-pink-800 {
+    color: #5d1938;
+}
+
+.bg-pink-900 {
+    background: #2e0c1c;
+}
+
+.text-pink-900 {
+    color: #2e0c1c;
+}
+
+.bg-red-100 {
+    background: #fadbd8;
+}
+
+.text-red-100 {
+    color: #fadbd8;
+}
+
+.bg-red-200 {
+    background: #f5b7b1;
+}
+
+.text-red-200 {
+    color: #f5b7b1;
+}
+
+.bg-red-300 {
+    background: #f1948a;
+}
+
+.text-red-300 {
+    color: #f1948a;
+}
+
+.bg-red-400 {
+    background: #ec7063;
+}
+
+.text-red-400 {
+    color: #ec7063;
+}
+
+.bg-red-500 {
+    background: #E74C3C;
+}
+
+.text-red-500 {
+    color: #E74C3C;
+}
+
+.bg-red-600 {
+    background: #b93d30;
+}
+
+.text-red-600 {
+    color: #b93d30;
+}
+
+.bg-red-700 {
+    background: #8b2e24;
+}
+
+.text-red-700 {
+    color: #8b2e24;
+}
+
+.bg-red-800 {
+    background: #5c1e18;
+}
+
+.text-red-800 {
+    color: #5c1e18;
+}
+
+.bg-red-900 {
+    background: #2e0f0c;
+}
+
+.text-red-900 {
+    color: #2e0f0c;
+}
+
+.bg-orange-100 {
+    background: #fae5d3;
+}
+
+.text-orange-100 {
+    color: #fae5d3;
+}
+
+.bg-orange-200 {
+    background: #f5cba7;
+}
+
+.text-orange-200 {
+    color: #f5cba7;
+}
+
+.bg-orange-300 {
+    background: #f0b27a;
+}
+
+.text-orange-300 {
+    color: #f0b27a;
+}
+
+.bg-orange-400 {
+    background: #eb984e;
+}
+
+.text-orange-400 {
+    color: #eb984e;
+}
+
+.bg-orange-500 {
+    background: #E67E22;
+}
+
+.text-orange-500 {
+    color: #E67E22;
+}
+
+.bg-orange-600 {
+    background: #b8651b;
+}
+
+.text-orange-600 {
+    color: #b8651b;
+}
+
+.bg-orange-700 {
+    background: #8a4c14;
+}
+
+.text-orange-700 {
+    color: #8a4c14;
+}
+
+.bg-orange-800 {
+    background: #5c320e;
+}
+
+.text-orange-800 {
+    color: #5c320e;
+}
+
+.bg-orange-900 {
+    background: #2e1907;
+}
+
+.text-orange-900 {
+    color: #2e1907;
+}
+
+.bg-yellow-100 {
+    background: #fcf3cf;
+}
+
+.text-yellow-100 {
+    color: #fcf3cf;
+}
+
+.bg-yellow-200 {
+    background: #f9e79f;
+}
+
+.text-yellow-200 {
+    color: #f9e79f;
+}
+
+.bg-yellow-300 {
+    background: #f7dc6f;
+}
+
+.text-yellow-300 {
+    color: #f7dc6f;
+}
+
+.bg-yellow-400 {
+    background: #f4d03f;
+}
+
+.text-yellow-400 {
+    color: #f4d03f;
+}
+
+.bg-yellow-500 {
+    background: #F1C40F;
+}
+
+.text-yellow-500 {
+    color: #F1C40F;
+}
+
+.bg-yellow-600 {
+    background: #c19d0c;
+}
+
+.text-yellow-600 {
+    color: #c19d0c;
+}
+
+.bg-yellow-700 {
+    background: #917609;
+}
+
+.text-yellow-700 {
+    color: #917609;
+}
+
+.bg-yellow-800 {
+    background: #604e06;
+}
+
+.text-yellow-800 {
+    color: #604e06;
+}
+
+.bg-yellow-900 {
+    background: #302703;
+}
+
+.text-yellow-900 {
+    color: #302703;
+}
+
+.bg-green-100 {
+    background: #d5f5e3;
+}
+
+.text-green-100 {
+    color: #d5f5e3;
+}
+
+.bg-green-200 {
+    background: #abebc6;
+}
+
+.text-green-200 {
+    color: #abebc6;
+}
+
+.bg-green-300 {
+    background: #82e0aa;
+}
+
+.text-green-300 {
+    color: #82e0aa;
+}
+
+.bg-green-400 {
+    background: #58d68d;
+}
+
+.text-green-400 {
+    color: #58d68d;
+}
+
+.bg-green-500 {
+    background: #2ECC71;
+}
+
+.text-green-500 {
+    color: #2ECC71;
+}
+
+.bg-green-600 {
+    background: #25a35a;
+}
+
+.text-green-600 {
+    color: #25a35a;
+}
+
+.bg-green-700 {
+    background: #1c7a44;
+}
+
+.text-green-700 {
+    color: #1c7a44;
+}
+
+.bg-green-800 {
+    background: #12522d;
+}
+
+.text-green-800 {
+    color: #12522d;
+}
+
+.bg-green-900 {
+    background: #092917;
+}
+
+.text-green-900 {
+    color: #092917;
+}
+
+.bg-teal-100 {
+    background: #cce6e6;
+}
+
+.text-teal-100 {
+    color: #cce6e6;
+}
+
+.bg-teal-200 {
+    background: #99cccc;
+}
+
+.text-teal-200 {
+    color: #99cccc;
+}
+
+.bg-teal-300 {
+    background: #66b3b3;
+}
+
+.text-teal-300 {
+    color: #66b3b3;
+}
+
+.bg-teal-400 {
+    background: #339999;
+}
+
+.text-teal-400 {
+    color: #339999;
+}
+
+.bg-teal-500 {
+    background: #008080;
+}
+
+.text-teal-500 {
+    color: #008080;
+}
+
+.bg-teal-600 {
+    background: #006666;
+}
+
+.text-teal-600 {
+    color: #006666;
+}
+
+.bg-teal-700 {
+    background: #004d4d;
+}
+
+.text-teal-700 {
+    color: #004d4d;
+}
+
+.bg-teal-800 {
+    background: #003333;
+}
+
+.text-teal-800 {
+    color: #003333;
+}
+
+.bg-teal-900 {
+    background: #001a1a;
+}
+
+.text-teal-900 {
+    color: #001a1a;
+}
+
+.bg-cyan-100 {
+    background: #d6eaf8;
+}
+
+.text-cyan-100 {
+    color: #d6eaf8;
+}
+
+.bg-cyan-200 {
+    background: #aed6f1;
+}
+
+.text-cyan-200 {
+    color: #aed6f1;
+}
+
+.bg-cyan-300 {
+    background: #85c1e9;
+}
+
+.text-cyan-300 {
+    color: #85c1e9;
+}
+
+.bg-cyan-400 {
+    background: #5dade2;
+}
+
+.text-cyan-400 {
+    color: #5dade2;
+}
+
+.bg-cyan-500 {
+    background: #3498DB;
+}
+
+.text-cyan-500 {
+    color: #3498DB;
+}
+
+.bg-cyan-600 {
+    background: #2a7aaf;
+}
+
+.text-cyan-600 {
+    color: #2a7aaf;
+}
+
+.bg-cyan-700 {
+    background: #1f5b83;
+}
+
+.text-cyan-700 {
+    color: #1f5b83;
+}
+
+.bg-cyan-800 {
+    background: #153d58;
+}
+
+.text-cyan-800 {
+    color: #153d58;
+}
+
+.bg-cyan-900 {
+    background: #0a1e2c;
+}
+
+.text-cyan-900 {
+    color: #0a1e2c;
+}
+
+.bg-gray-100 {
+    background: #F8F9FA;
+}
+
+.text-gray-100 {
+    color: #F8F9FA;
+}
+
+.bg-gray-200 {
+    background: #F3F5F7;
+}
+
+.text-gray-200 {
+    color: #F3F5F7;
+}
+
+.bg-gray-300 {
+    background: #DBE0E5;
+}
+
+.text-gray-300 {
+    color: #DBE0E5;
+}
+
+.bg-gray-400 {
+    background: #BEC8D0;
+}
+
+.text-gray-400 {
+    color: #BEC8D0;
+}
+
+.bg-gray-500 {
+    background: #8996A4;
+}
+
+.text-gray-500 {
+    color: #8996A4;
+}
+
+.bg-gray-600 {
+    background: #5B6B79;
+}
+
+.text-gray-600 {
+    color: #5B6B79;
+}
+
+.bg-gray-700 {
+    background: #3E4853;
+}
+
+.text-gray-700 {
+    color: #3E4853;
+}
+
+.bg-gray-800 {
+    background: #1D2630;
+}
+
+.text-gray-800 {
+    color: #1D2630;
+}
+
+.bg-gray-900 {
+    background: #131920;
+}
+
+.text-gray-900 {
+    color: #131920;
+}
+
+
+/**  =====================
+    29. Modal css start
+========================== **/
+.modal.fade.modal-animate {
+    /* Effect 1: Fade in and scale up */
+    /* Effect 2: Slide from the right */
+    /* Effect 3: Slide from the bottom */
+    /* Effect 4: Newspaper */
+    /* Effect 5: fall */
+    /* Effect 6: side fall */
+    /* Effect 7:  slide and stick to top */
+    /* Effect 8: 3D flip horizontal */
+    /* Effect 9: 3D flip vertical */
+    /* Effect 10: 3D sign */
+    /* Effect 11: Super scaled */
+    /* Effect 12:  Just me */
+    /* Effect 13: 3D slit */
+    /* Effect 14:  3D Rotate from bottom */
+    /* Effect 15:  3D Rotate in from left */
+    /* Effect 16:  Blur */
+}
+
+.modal.fade.modal-animate .modal-dialog {
+    display: flex;
+    align-items: center;
+    height: calc(100% - 3.5rem);
+}
+
+.modal.fade.modal-animate.anim-fade-in-scale .modal-dialog {
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.modal.fade.modal-animate.anim-fade-in-scale.show .modal-dialog {
+    transform: none;
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-slide-in-right .modal-dialog {
+    transform: translateX(20%);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+
+.modal.fade.modal-animate.anim-slide-in-right.show .modal-dialog {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-slide-in-bottom .modal-dialog {
+    transform: translateY(20%);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.modal.fade.modal-animate.anim-slide-in-bottom.show .modal-dialog {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-newspaper .modal-dialog {
+    transform: scale(0) rotate(720deg);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.modal.fade.modal-animate.anim-newspaper.show .modal-dialog {
+    transform: none;
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-fall {
+    perspective: 1300px;
+}
+
+.modal.fade.modal-animate.anim-fall .modal-dialog {
+    transform-style: preserve-3d;
+    transform: translateZ(600px) rotateX(20deg);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.modal.fade.modal-animate.anim-fall.show .modal-dialog {
+    transition: all 0.3s ease-in;
+    transform: translateZ(0px) rotateX(0deg);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-side-fall {
+    perspective: 1300px;
+}
+
+.modal.fade.modal-animate.anim-side-fall .modal-dialog {
+    transform-style: preserve-3d;
+    transform: translate(30%) translateZ(600px) rotate(10deg);
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+.modal.fade.modal-animate.anim-side-fall.show .modal-dialog {
+    transform: translate(0%) translateZ(0) rotate(0deg);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-sticky-up .modal-dialog {
+    align-items: flex-start;
+    margin-top: 0;
+    transform: translateY(-200%);
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.modal.fade.modal-animate.anim-sticky-up.show .modal-dialog {
+    transform: translateY(0%);
+    border-radius: 0 0 3px 3px;
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-3d-flip-horizontal {
+    perspective: 1300px;
+}
+
+.modal.fade.modal-animate.anim-3d-flip-horizontal .modal-dialog {
+    transform-style: preserve-3d;
+    transform: rotateY(-70deg);
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.modal.fade.modal-animate.anim-3d-flip-horizontal.show .modal-dialog {
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-3d-flip-vertical {
+    perspective: 1300px;
+}
+
+.modal.fade.modal-animate.anim-3d-flip-vertical .modal-dialog {
+    transform-style: preserve-3d;
+    transform: rotateX(-70deg);
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.modal.fade.modal-animate.anim-3d-flip-vertical.show .modal-dialog {
+    transform: rotateX(0deg);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-3d-sign {
+    perspective: 1300px;
+}
+
+.modal.fade.modal-animate.anim-3d-sign .modal-dialog {
+    transform-style: preserve-3d;
+    transform: rotateX(-60deg);
+    transform-origin: 50% 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.modal.fade.modal-animate.anim-3d-sign.show .modal-dialog {
+    transform: rotateX(0deg);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-super-scaled .modal-dialog {
+    transform: scale(2);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.modal.fade.modal-animate.anim-super-scaled.show .modal-dialog {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-just-me {
+    background: #fff;
+}
+
+.modal.fade.modal-animate.anim-just-me .modal-dialog {
+    transform: scale(0.8);
+    opacity: 0;
+    transition: all 0.3s;
+    background: transparent;
+}
+
+.modal.fade.modal-animate.anim-just-me .modal-dialog .modal-content,
+.modal.fade.modal-animate.anim-just-me .modal-dialog .introjs-tooltip {
+    border: none;
+}
+
+.modal.fade.modal-animate.anim-just-me .modal-dialog .modal-content .modal-header,
+.modal.fade.modal-animate.anim-just-me .modal-dialog .introjs-tooltip .modal-header {
+    background: transparent !important;
+}
+
+.modal.fade.modal-animate.anim-just-me .modal-dialog .modal-content .modal-header .btn-close.btn-close-white,
+.modal.fade.modal-animate.anim-just-me .modal-dialog .introjs-tooltip .modal-header .btn-close.btn-close-white {
+    filter: none;
+}
+
+.modal.fade.modal-animate.anim-just-me .modal-dialog .modal-content .modal-header .text-white.modal-title,
+.modal.fade.modal-animate.anim-just-me .modal-dialog .introjs-tooltip .modal-header .text-white.modal-title {
+    color: var(--pc-header-color) !important;
+}
+
+.modal.fade.modal-animate.anim-just-me.show .modal-dialog {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-3d-slit {
+    perspective: 1300px;
+}
+
+.modal.fade.modal-animate.anim-3d-slit .modal-dialog {
+    transform-style: preserve-3d;
+    transform: translateZ(-3000px) rotateY(90deg);
+    opacity: 0;
+}
+
+.modal.fade.modal-animate.anim-3d-slit.show .modal-dialog {
+    animation: slit 0.7s forwards ease-out;
+}
+
+.modal.fade.modal-animate.anim-3d-rotate-bottom {
+    perspective: 1300px;
+}
+
+.modal.fade.modal-animate.anim-3d-rotate-bottom .modal-dialog {
+    transform-style: preserve-3d;
+    transform: translateY(100%) rotateX(90deg);
+    transform-origin: 0 100%;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.modal.fade.modal-animate.anim-3d-rotate-bottom.show .modal-dialog {
+    transform: translateY(0%) rotateX(0deg);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-3d-rotate-InLeft {
+    perspective: 1300px;
+}
+
+.modal.fade.modal-animate.anim-3d-rotate-InLeft .modal-dialog {
+    transform-style: preserve-3d;
+    transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+    transform-origin: 0 100%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.modal.fade.modal-animate.anim-3d-rotate-InLeft.show .modal-dialog {
+    transform: translateZ(0px) translateX(0%) rotateY(0deg);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-blur {
+    backdrop-filter: blur(8px);
+}
+
+.modal.fade.modal-animate.anim-blur .modal-dialog {
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.modal.fade.modal-animate.anim-blur.show .modal-dialog {
+    transform: none;
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-let-me-in .modal-dialog {
+    opacity: 0;
+    transform: translateY(200%);
+    transition: all 0.3s 0.2s;
+}
+
+.modal.fade.modal-animate.anim-let-me-in.show .modal-dialog {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-make-way .modal-dialog {
+    opacity: 0;
+    transform: translateX(200%);
+    transition: all 0.3s 0.2s;
+}
+
+.modal.fade.modal-animate.anim-make-way.show .modal-dialog {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.modal.fade.modal-animate.anim-slip-from-top .modal-dialog {
+    opacity: 0;
+    transform: translateY(-200%);
+    transition: all 0.5s 0.1s;
+}
+
+.modal.fade.modal-animate.anim-slip-from-top.show .modal-dialog {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+body {
+    /* Effect 17:  Slide in from bottom with perspective on container */
+    /* Effect 18:  Slide from right with perspective on container */
+    /* Effect 19:  Slip in from the top with perspective on container */
+}
+
+body.anim-let-me-in {
+    perspective: 600px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+body.anim-let-me-in .header-user-list,
+body.anim-let-me-in .page-header,
+body.anim-let-me-in .header-chat,
+body.anim-let-me-in .menu-styler {
+    display: none;
+}
+
+body.anim-let-me-in .pc-sidebar,
+body.anim-let-me-in .pc-header,
+body.anim-let-me-in .pc-container,
+body.anim-let-me-in .modal-backdrop {
+    transition: transform 0.3s;
+}
+
+body.anim-let-me-in.modal-open .pc-sidebar,
+body.anim-let-me-in.modal-open .pc-header,
+body.anim-let-me-in.modal-open .pc-container,
+body.anim-let-me-in.modal-open .modal-backdrop {
+    transform: rotateX(-3deg);
+    transform-origin: 50% 0%;
+    transform-style: preserve-3d;
+}
+
+body.anim-make-way {
+    perspective: 600px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+body.anim-make-way .header-user-list,
+body.anim-make-way .page-header,
+body.anim-make-way .header-chat,
+body.anim-make-way .menu-styler {
+    display: none;
+}
+
+body.anim-make-way .pc-sidebar,
+body.anim-make-way .pc-header,
+body.anim-make-way .pc-container,
+body.anim-make-way .modal-backdrop {
+    transition: all 0.5s;
+}
+
+body.anim-make-way.modal-open .pc-sidebar,
+body.anim-make-way.modal-open .pc-header,
+body.anim-make-way.modal-open .pc-container,
+body.anim-make-way.modal-open .modal-backdrop {
+    transform-style: preserve-3d;
+    transform-origin: 0% 50%;
+    animation: rotateRightSideFirst 0.5s forwards ease-in;
+}
+
+body.anim-slip-from-top {
+    perspective: 600px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+body.anim-slip-from-top .header-user-list,
+body.anim-slip-from-top .header-chat,
+body.anim-slip-from-top .page-header,
+body.anim-slip-from-top .menu-styler {
+    display: none;
+}
+
+body.anim-slip-from-top .pc-sidebar,
+body.anim-slip-from-top .pc-header,
+body.anim-slip-from-top .pc-container,
+body.anim-slip-from-top .modal-backdrop {
+    transition: all 0.5s;
+    transform-style: preserve-3d;
+    transform-origin: 50% 100%;
+    animation: OpenTop 1.5s forwards ease-in;
+}
+
+body.anim-slip-from-top.modal-open .pc-header {
+    opacity: 0;
+}
+
+@keyframes slit {
+    50% {
+        transform: translateZ(-250px) rotateY(89deg);
+        opacity: 1;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        transform: translateZ(0) rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateRightSideFirst {
+    50% {
+        transform: translateZ(-50px) rotateY(5deg);
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        transform: translateZ(-200px);
+    }
+}
+
+@keyframes OpenTop {
+    50% {
+        transform: rotateX(10deg);
+        animation-timing-function: ease-out;
+    }
+}
+
+.introjs-tooltip {
+    background: #ffffff;
+    position: absolute;
+}
+
+.introjs-tooltip .introjs-tooltipbuttons {
+    border-top: none;
+}
+
+.introjs-tooltip .introjs-button {
+    text-shadow: none;
+}
+
+/**  =====================
+      29. Modal css end
+  ========================== **/

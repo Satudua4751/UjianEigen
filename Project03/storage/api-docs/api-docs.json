@@ -1,0 +1,19 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Dokumentasi",
+        "version": "1.0"
+    },
+    "paths": {
+        "/api/book": {
+            "get": {
+                "operationId": "0e75dde625f5fdef923b42b410113da4",
+                "responses": {
+                    "200": {
+                        "description": "Get all Book"
+                    }
+                }
+            }
+        }
+    }
+}
