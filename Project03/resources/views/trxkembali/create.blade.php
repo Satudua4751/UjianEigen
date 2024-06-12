@@ -37,7 +37,7 @@
                                             <select name="idtrx1" id="idtrx1" class="form-control" required>
                                                 <option value="">== Pilih Member ==</option>
                                                 @foreach($member as $members)
-                                                <option value="{{ $members->idtrx }}">{{ $members->idtrx }} -{{ $members->codem }} - {{ $members->name }}</option>
+                                                <option value="{{ $members->idtrx }}">{{ $members->idtrx }} - {{ $members->codem }} - {{ $members->name }}</option>
                                                 @endforeach
                                             </select>
                                         </div>
@@ -48,16 +48,24 @@
                                             <input type="text" name="name" id="name" class="form-control" placeholder="Name Member" readonly>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-3">
                                         <div class="input-group input-group-static mb-2">
                                             <span class="input-group-text">Sangsi (Ya/Tidak)</span>
                                             <input type="text" name="stts" id="stts" class="form-control" placeholder="Status" readonly>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="row">
                                     <div class="col-md-2">
                                         <div class="input-group input-group-static mb-2">
-                                            <span class="input-group-text">Nota.Pinjam</span>
-                                            <input type="text" name="codem" id="codem" class="form-control" placeholder="Status" readonly>
+                                            <span class="input-group-text">Tgl.Pinjam</span>
+                                            <input type="date" name="tglpjm" id="tglpjm" class="form-control" placeholder="Tanggal Pinjam" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="input-group input-group-static mb-2">
+                                            <span class="input-group-text">Penalti</span>
+                                            <input type="text" name="infodll" id="infodll" class="form-control" placeholder="Infodll" readonly>
                                         </div>
                                     </div>
                                 </div>
@@ -166,13 +174,14 @@
     /* Member */
     $('#idtrx1').change(function() {
         var Idtrx1 = $('#idtrx1').val();
-
+        var Tglkmb = $('#tgltrx').val();
         // Pertama, ambil detail member
         $.ajax({
             type: 'POST',
             url: '{{ route("trxkembali_getmember") }}',
             data: {
                 idtrx1: Idtrx1,
+                tglkmb: Tglkmb,
                 _token: '{{ csrf_token() }}'
             },
             cache: true,
@@ -181,10 +190,14 @@
                     $('#name').val(response.error);
                     $('#stts').val(response.error);
                     $('#codem').val(response.error);
+                    $('#tglpjm').val(response.error);
+                    $('#infodll').val(response.error);
                 } else {
                     $('#name').val(response.name);
                     $('#stts').val(response.stts);
                     $('#codem').val(response.codem);
+                    $('#tglpjm').val(response.tglpjm);
+                    $('#infodll').val(response.infodll);
                 }
 
                 // Setelah mendapatkan detail member, ambil daftar buku
@@ -216,7 +229,9 @@
             error: function(response) {
                 $('#name').val('Name tidak ditemukan');
                 $('#stts').val('Status tidak ditemukan');
-                $('#codem').val('kode tidak ditemukan');
+                $('#codem').val('');
+                $('#tglpjm').val('');
+                $('#infodll').val('');
             }
         });
     });

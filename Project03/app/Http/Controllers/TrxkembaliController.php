@@ -159,6 +159,7 @@ class TrxkembaliController extends Controller
     public function getMember(Request $request)
     {
         $idtrx = $request->input('idtrx1');
+        $tglkmb = Carbon::parse($request->input('tglkmb')); // Menggunakan Carbon untuk parsing tanggal
 
         $trxpinjam = DB::table('trxpinjam')
             ->join('member', 'trxpinjam.codem', '=', 'member.codem')
@@ -168,10 +169,20 @@ class TrxkembaliController extends Controller
             ->first();
 
         if ($trxpinjam) {
+            $tgltrx = Carbon::parse($trxpinjam->tgltrx); // Parsing tanggal pinjam
+            $selisihHari = $tglkmb->diffInDays($tgltrx); // Menghitung selisih hari
+
+            if ($selisihHari >= 7) {
+                $infodll = 'Penalti 3 Hari Tidak boleh pinjam';
+            } else {
+                $infodll = '';
+            }
             return response()->json([
                 'codem' => $trxpinjam->codem,
                 'name' => $trxpinjam->name,
                 'stts' => $trxpinjam->stts,
+                'tglpjm' => $trxpinjam->tgltrx,
+                'infodll' => $infodll
             ]);
         }
 
@@ -200,7 +211,7 @@ class TrxkembaliController extends Controller
         return response()->json(['error' => 'data tidak ditemukan'], 404);
     }
 
-    public function getNotaPjm(Request $request)
+    public function getNotaKmb(Request $request)
     {
         $tgltrx1 = $request->input('tgltrx1');
         $huruf = "KM" . str_replace('-', '', $tgltrx1);

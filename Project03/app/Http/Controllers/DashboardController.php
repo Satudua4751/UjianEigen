@@ -91,7 +91,7 @@ class DashboardController extends Controller
 		}
         // Langkah 4: hasil penghitungan
         $hasilarray = $jumlah1 - $jumlah2;
-        echo $hasilarray;
+        //echo $hasilarray;
 
         return view('dashboard.index', compact('trxpinjam', 'book'), ['reversword' => $reversword, 'longestWord' => $caritext2, 'length' => strlen($caritext2), 'hasil' => $hasil, 'hasilarray' => $hasilarray]);
     }
