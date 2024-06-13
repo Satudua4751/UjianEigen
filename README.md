@@ -3,7 +3,7 @@
 3. Laravel 10
 4. File eigen.sql diperlukan untuk menjalankan simulasi program ujian ini
 5. unggahan terdapat file vendor.0xx dengan berurutan (waktu meng upload tidak menerima file terlalu besar atau lebih dari 25Mb)
-6. Copy ada download project03
+6. download project03
 7. extract vendor file
 8. buka visual code
 9. buka open folder project03
