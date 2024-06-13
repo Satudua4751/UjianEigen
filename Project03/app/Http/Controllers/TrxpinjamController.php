@@ -10,27 +10,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 
-/**
- * @OA\Info(title="Pinjam Buku API", version="1.0")
- */
 class TrxpinjamController extends Controller
 {
     public function index()
     {
-        /**
-         * @OA\Get(
-         *     path="/api/trxpinjam",
-         *     summary="Get list of pinjaman",
-         *     @OA\Response(
-         *         response=200,
-         *         description="Successful operation",
-         *         @OA\JsonContent(
-         *             type="array",
-         *             @OA\Items(ref="#/components/schemas/Trxpinjam")
-         *         )
-         *     )
-         * )
-         */
         $trxpinjam = DB::table('Trxpinjam')
             ->join('member', 'trxpinjam.codem', '=', 'member.codem')
             ->select('trxpinjam.*', 'member.name')
@@ -63,24 +46,6 @@ class TrxpinjamController extends Controller
         return view('trxpinjam.index', compact('trxpinjam', 'book1', 'member1'));
     }
 
-    /**
-     * @OA\Post(
-     *     path="/api/trxpinjam",
-     *     summary="Create a new Pinjaman",
-     *     @OA\RequestBody(
-     *         required=true,
-     *         @OA\JsonContent(ref="#/components/schemas/Trxpinjam")
-     *     ),
-     *     @OA\Response(
-     *         response=201,
-     *         description="Pinjam created"
-     *     ),
-     *     @OA\Response(
-     *         response=400,
-     *         description="Bad request"
-     *     )
-     * )
-     */
     public function create(Request $request)
     {
         $idtrx = $request->input('idtrx');
@@ -234,17 +199,3 @@ class TrxpinjamController extends Controller
         }
     }
 }
-
-/**
- * @OA\Schema(
- *     schema="Trxpinjam",
- *     type="object",
- *     title="Trxpinjam",
- *     required={"idtrx", "tgltrx", "codem"},
- *     @OA\Property(property="idtrx", type="string"),
- *     @OA\Property(property="tgltrx", type="data"),
- *     @OA\Property(property="codem", type="string"),
- *     @OA\Property(property="created_at", type="string", format="date-time", readOnly=true),
- *     @OA\Property(property="updated_at", type="string", format="date-time", readOnly=true)
- * )
- */

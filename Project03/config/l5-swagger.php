@@ -5,7 +5,7 @@ return [
     'documentations' => [
         'default' => [
             'api' => [
-                'title' => 'Laravel API documentation',
+                'title' => env('L5_SWAGGER_API_TITLE', 'Swagger API'),
                 'description' => 'This is the API documentation for my Laravel project',
                 'version' => '1.0.0',
             ],
@@ -13,39 +13,37 @@ return [
             'routes' => [
                 /*
                  * Route for accessing api documentation interface
-                */
+                 */
                 'api' => 'api/documentation',
             ],
             'paths' => [
                 /*
-                 * Edit to include full URL in ui for assets
-                */
+                 * Edit to include full URL in UI for assets
+                 */
                 'use_absolute_path' => env('L5_SWAGGER_USE_ABSOLUTE_PATH', true),
 
                 /*
                  * File name of the generated json documentation file
-                */
+                 */
                 'docs_json' => 'api-docs.json',
 
                 /*
                  * File name of the generated YAML documentation file
-                */
+                 */
                 'docs_yaml' => 'api-docs.yaml',
 
                 /*
-                * Set this to `json` or `yaml` to determine which documentation file to use in UI
-                */
+                 * Set this to `json` or `yaml` to determine which documentation file to use in UI
+                 */
                 'format_to_use_for_docs' => env('L5_FORMAT_TO_USE_FOR_DOCS', 'json'),
 
                 /*
                  * Absolute paths to directory containing the swagger annotations are stored.
-                */
-
+                 */
                 'docs' => storage_path('api-docs'), // Path untuk menyimpan file dokumen Swagger yang dihasilkan
 
                 'annotations' => [
                     base_path('app'),
-                    base_path('app/Http/Controllers'), // Path ke direktori yang berisi anotasi Swagger
                 ],
 
             ],

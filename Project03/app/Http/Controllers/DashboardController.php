@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-
 use App\Models\Book;
 use App\Models\Member;
 use App\Models\Trxpinjam;
@@ -11,13 +10,14 @@ use Illuminate\Support\Facades\DB;
 
 class DashboardController extends Controller
 {
-
     public function index(Request $request)
     {
+
         $book = Book::All();
         $member = Member::All();
         $trxpinjam = Trxpinjam::All();
 
+        /* Soal 1 */
         $text1 = "NEGIE1";
         $pjchr = strlen($text1);
         $txtgab = "";
@@ -35,14 +35,13 @@ class DashboardController extends Controller
         }
         $reversword = $txtgab . $txtgab1;
 
-
+        /* Soal 2 */
         $text2 = strtoupper("Gg Translator dapat menterjemahkan berbagai macam bahasa");
         $pjchr = strlen($text2);
         $mulai = 0;
         $sampai = 0;
         $caritext1 = "";
         $caritext2 = "";
-
         for ($z = 0; $z < $pjchr; $z++) {
             $carispasi = substr($text2, $z, 1);
             if ($carispasi == " ") {
@@ -54,7 +53,6 @@ class DashboardController extends Controller
                 }
             }
         }
-
         // periksa kata terakhir
         $caritext1 = substr($text2, $mulai, $pjchr - $mulai);
         if (strlen($caritext1) > strlen($caritext2)) {
@@ -62,11 +60,14 @@ class DashboardController extends Controller
         }
 
 
+        /* Soal 3 */
         $hasil = DB::table('inputs')
             ->select('jenis', DB::raw('count(*) as jml'))
             ->groupBy('jenis')
             ->get();
 
+
+        /* Soal 4 */
         // Langkah 1: Definisi Arrays dan Variabel
         $satu = $dua = $nilai = array_fill(0, 3, 0);
 
@@ -84,11 +85,11 @@ class DashboardController extends Controller
 
         // Langkah 3: Loop kedua menghitung jumlah2
         $rev = 2; // rev mulai dari 2 karena PHP arrays adalah 0- basis
-		for ($t2 = 0; $t2 < 3; $t2++) {
-    		$dua[$t2] = substr($nilai[$rev], $t2, 1);
-    		$jumlah2 += (int) $dua[$t2];
-    		$rev--;
-		}
+        for ($t2 = 0; $t2 < 3; $t2++) {
+            $dua[$t2] = substr($nilai[$rev], $t2, 1);
+            $jumlah2 += (int) $dua[$t2];
+            $rev--;
+        }
         // Langkah 4: hasil penghitungan
         $hasilarray = $jumlah1 - $jumlah2;
         //echo $hasilarray;
