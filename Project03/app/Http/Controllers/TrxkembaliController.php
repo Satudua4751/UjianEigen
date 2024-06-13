@@ -54,6 +54,7 @@ class TrxkembaliController extends Controller
     public function create(Request $request)
     {
         $idtrx = $request->input('idtrx');
+
         $book = DB::table('trxpinjamdetail')
             ->join('book', 'trxpinjamdetail.codeb', '=', 'book.codeb')
             ->select('trxpinjamdetail.*', 'book.title', 'book.author')
@@ -72,9 +73,10 @@ class TrxkembaliController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'tgltrx' => 'required|date',
             'idtrx' => 'required|string|max:20',
+            'tgltrx' => 'required|date',
             'codem' => 'required|string',
+            'idtrx1' => 'required|string',
             'items' => 'required|json'
         ]);
 
@@ -83,11 +85,12 @@ class TrxkembaliController extends Controller
                 'idtrx' => $request->idtrx,
                 'tgltrx' => $request->tgltrx,
                 'codem' => $request->codem,
+                'idtrx1' => $request->idtrx1
             ]);
-
-            $this->saveTrxPjmDetails($Trxkembali, $request->input('items'));
+            $this->saveTrxKmbDetails($Trxkembali, $request->input('items'));
             $Trxkembali->save();
         });
+
 
         return redirect()->route('trxkembali.index')->with('success', 'Transaction has been added');
     }
@@ -95,7 +98,7 @@ class TrxkembaliController extends Controller
     public function edit($idtrx)
     {
         $Trxkembali = Trxkembali::findOrFail($idtrx);
-        $Trxkembalidetails = $this->getTrxPjmDetails($idtrx);
+        $Trxkembalidetails = $this->getTrxKmbDetails($idtrx);
         $Member = Member::orderBy('name', 'asc')->get();
         $Book = Book::all();
 
@@ -108,12 +111,13 @@ class TrxkembaliController extends Controller
             'idtrx' => 'required|string|max:20',
             'tgltrx' => 'required|date',
             'codem' => 'required|string',
+            'idtrx1' => 'required|string',
             'items' => 'required|json'
         ]);
         try {
             DB::transaction(function () use ($request, $idtrx) {
                 $Trxkembali = Trxkembali::findOrFail($idtrx);
-                $Trxkembali->update($request->only(['tgltrx', 'codem']));
+                $Trxkembali->update($request->only(['tgltrx', 'codem', 'idtrx1']));
 
                 Trxkembalidetail::where('idtrx', $idtrx)->delete();
                 $this->saveTrxPjmDetails($Trxkembali, $request->input('items'));
@@ -129,7 +133,6 @@ class TrxkembaliController extends Controller
     public function destroy($idtrx)
     {
         $Trxkembali = Trxkembali::findOrFail($idtrx);
-
         Trxkembalidetail::where('idtrx', $idtrx)->delete();
         $Trxkembali->delete();
 
@@ -138,22 +141,6 @@ class TrxkembaliController extends Controller
 
     public function show()
     {
-    }
-
-    public function getBooksByMember(Request $request)
-    {
-        $idtrx1 = $request->input('idtrx1');
-        if (!$idtrx1) {
-            return response()->json(['error' => 'ID Transaksi tidak ditemukan']);
-        }
-
-        // Ambil buku berdasarkan idtrx1
-        $books = DB::table('trxpinjamdetail')
-            ->join('book', 'trxpinjamdetail.codeb', '=', 'book.codeb')
-            ->select('trxpinjamdetail.*', 'book.title', 'book.author')
-            ->where('idtrx', 'LIKE', '%' . $idtrx1 . '%')
-            ->orderBy('trxpinjamdetail.idtrx', 'ASC')->get();
-        return response()->json(['books' => $books]);
     }
 
     public function getMember(Request $request)
@@ -175,7 +162,7 @@ class TrxkembaliController extends Controller
             if ($selisihHari >= 7) {
                 $infodll = 'Penalti 3 Hari Tidak boleh pinjam';
             } else {
-                $infodll = '';
+                $infodll = 'tidak ada';
             }
             return response()->json([
                 'codem' => $trxpinjam->codem,
@@ -188,6 +175,24 @@ class TrxkembaliController extends Controller
 
         return response()->json(['error' => 'Member tidak ditemukan'], 404);
     }
+
+
+    public function getBooksByMember(Request $request)
+    {
+        $idtrx1 = $request->input('idtrx1');
+        if (!$idtrx1) {
+            return response()->json(['error' => 'ID Transaksi tidak ditemukan']);
+        }
+
+        // Ambil buku berdasarkan idtrx1
+        $books = DB::table('trxpinjamdetail')
+            ->join('book', 'trxpinjamdetail.codeb', '=', 'book.codeb')
+            ->select('trxpinjamdetail.*', 'book.title', 'book.author')
+            ->where('idtrx', 'LIKE', '%' . $idtrx1 . '%')
+            ->orderBy('trxpinjamdetail.idtrx', 'ASC')->get();
+        return response()->json(['books' => $books]);
+    }
+
 
     public function getNameBook(Request $request)
     {
@@ -227,7 +232,7 @@ class TrxkembaliController extends Controller
         return response()->json(['idtrx' => $idtrx]);
     }
 
-    private function saveTrxPjmDetails($trxkembali, $items)
+    private function saveTrxKmbDetails($trxkembali, $items)
     {
         $items = json_decode($items, true);
         foreach ($items as $item) {
@@ -239,6 +244,16 @@ class TrxkembaliController extends Controller
             ]);
             $detail->save();
         }
+    }
+
+    private function getTrxKmbDetails($idtrx)
+    {
+        return DB::table('trxkembalidetail')
+            ->join('book', 'trxkembalidetail.codeb', '=', 'book.codeb')
+            ->select('trxkembalidetail.*', 'book.title', 'book.author')
+            ->where('trxkembalidetail.idtrx', $idtrx)
+            ->orderBy('trxkembalidetail.idtrx', 'ASC')
+            ->get();
     }
 
     public function checkStock(Request $request)

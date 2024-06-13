@@ -2,7 +2,7 @@
     <x-navbars.sidebar activePage='kembali'></x-navbars.sidebar>
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-md ">
         <!-- Navbar -->
-        <x-navbars.navs.auth titlePage="Entri Pengembalian Book"></x-navbars.navs.auth>
+        <x-navbars.navs.judul titlePage="Entri Pengembalian Book"></x-navbars.navs.judul>
         <!-- End Navbar -->
         <div class="container-fluid py-4">
             <div class="row">
@@ -43,29 +43,35 @@
                                         </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <div class="input-group input-group-static mb-2">
-                                            <span class="input-group-text">Name</span>
-                                            <input type="text" name="name" id="name" class="form-control" placeholder="Name Member" readonly>
+                                        <div class="input-group input-group-outline mb-2">
+                                            <label for="name" class="form-label">Code</label>
+                                            <input type="text" name="codem" id="codem" class="form-control" readonly>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <div class="input-group input-group-static mb-2">
-                                            <span class="input-group-text">Sangsi (Ya/Tidak)</span>
-                                            <input type="text" name="stts" id="stts" class="form-control" placeholder="Status" readonly>
+                                        <div class="input-group input-group-outline mb-2">
+                                            <label for="name" class="form-label">Name </label>
+                                            <input type="text" name="name" id="name" class="form-control" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="input-group input-group-outline mb-2">
+                                            <label for="stts" class="form-label">Status </label>
+                                            <input type="text" name="stts" id="stts" class="form-control" readonly>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-2">
-                                        <div class="input-group input-group-static mb-2">
-                                            <span class="input-group-text">Tgl.Pinjam</span>
-                                            <input type="date" name="tglpjm" id="tglpjm" class="form-control" placeholder="Tanggal Pinjam" readonly>
+                                    <div class="col-md-3">
+                                        <div class="input-group input-group-outline mb-2">
+                                            <label for="tglpjm" class="form-label"></label>
+                                            <input type="date" name="tglpjm" id="tglpjm" class="form-control" readonly>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="input-group input-group-static mb-2">
-                                            <span class="input-group-text">Penalti</span>
-                                            <input type="text" name="infodll" id="infodll" class="form-control" placeholder="Infodll" readonly>
+                                        <div class="input-group input-group-outline mb-2">
+                                            <label for="infodll" class="form-label">Penalti </label>
+                                            <input type="text" name="infodll" id="infodll" class="form-control" readonly>
                                         </div>
                                     </div>
                                 </div>
@@ -312,7 +318,6 @@
 
     $('#tgltrx').change(function() {
         var tgltrx1 = $('#tgltrx').val();
-
         $.ajax({
             type: 'POST',
             url: `{{ route('trxkembali_nota') }}`,
