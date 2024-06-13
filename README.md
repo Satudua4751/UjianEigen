@@ -12,3 +12,6 @@
 12. ketikan php artisan serve
 13. buka web browset ketikan "http://127.0.0.1:8000/"
 14. selesai
+15. 
+
+https://github.com/Satudua4751/UjianEigen/assets/172474795/ec1130d1-72c6-4654-8f83-aedb72187705
